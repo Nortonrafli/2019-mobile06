@@ -1,7 +1,6 @@
 package id.ac.polinema.idealbodyweight.fragments;
 
-import android.content.Context;
-import android.net.Uri;
+
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -9,14 +8,13 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import id.ac.polinema.idealbodyweight.R;
 
+
 /**
  * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link AboutFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
  * Use the {@link AboutFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
@@ -66,4 +64,5 @@ public class AboutFragment extends Fragment {
         nameText.setText(name);
         return view;
     }
+
 }
